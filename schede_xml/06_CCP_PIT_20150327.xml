@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?><gmd:MD_Metadata xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://schemas.opengis.net/iso/19139/20060504/gmd/gmd.xsd" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink">
+<gmd:fileIdentifier>
+<gco:CharacterString>CCP_PIT_20150327</gco:CharacterString>
+</gmd:fileIdentifier>
+<gmd:language>
+<gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="ita">ita</gmd:LanguageCode>
+</gmd:language>
+<gmd:characterSet>
+<gmd:MD_CharacterSetCode codeSpace="ISOTC211/19115" codeListValue="MD_CharacterSetCode_utf8" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode">MD_CharacterSetCode_utf8</gmd:MD_CharacterSetCode>
+</gmd:characterSet>
+<gmd:hierarchyLevel>
+<gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+</gmd:hierarchyLevel>
+<gmd:contact>
+<gmd:CI_ResponsibleParty>
+<gmd:organisationName>
+<gco:CharacterString>Regione Toscana</gco:CharacterString>
+</gmd:organisationName>
+<gmd:contactInfo>
+<gmd:CI_Contact>
+<gmd:address>
+<gmd:CI_Address>
+<gmd:electronicMailAddress>
+<gco:CharacterString>infrastruttura.geografica@regione.toscana.it</gco:CharacterString>
+</gmd:electronicMailAddress>
+</gmd:CI_Address>
+</gmd:address>
+</gmd:CI_Contact>
+</gmd:contactInfo>
+<gmd:role>
+<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+</gmd:role>
+</gmd:CI_ResponsibleParty>
+</gmd:contact>
+<gmd:contact>
+<gmd:CI_ResponsibleParty>
+<gmd:organisationName>
+<gco:CharacterString>Centro Interuniversitario di Scienze del Territorio - CIST</gco:CharacterString>
+</gmd:organisationName>
+<gmd:contactInfo>
+<gmd:CI_Contact>
+<gmd:address>
+<gmd:CI_Address>
+<gmd:electronicMailAddress>
+<gco:CharacterString>segreteria@cist.it</gco:CharacterString>
+</gmd:electronicMailAddress>
+</gmd:CI_Address>
+</gmd:address>
+</gmd:CI_Contact>
+</gmd:contactInfo>
+<gmd:role>
+<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+</gmd:role>
+</gmd:CI_ResponsibleParty>
+</gmd:contact>
+<gmd:dateStamp>
+<gco:Date>2015-07-16</gco:Date>
+</gmd:dateStamp>
+<gmd:metadataStandardName>
+<gco:CharacterString>ISO19115</gco:CharacterString>
+</gmd:metadataStandardName>
+<gmd:metadataStandardVersion>
+<gco:CharacterString>2003/Cor.1:2006</gco:CharacterString>
+</gmd:metadataStandardVersion>
+  <gmd:referenceSystemInfo>
+      <gmd:MD_ReferenceSystem>
+         <gmd:referenceSystemIdentifier>
+            <gmd:RS_Identifier>
+               <gmd:code>
+                  <gco:CharacterString>Monte Mario / Italy zone 1 (EPSG:3003)</gco:CharacterString>
+               </gmd:code>
+               <gmd:codeSpace>
+                  <gco:CharacterString>EPSG</gco:CharacterString>
+               </gmd:codeSpace>
+               <gmd:version>
+                  <gco:CharacterString>7.9</gco:CharacterString>
+               </gmd:version>
+            </gmd:RS_Identifier>
+         </gmd:referenceSystemIdentifier>
+      </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo>
+<gmd:MD_DataIdentification>
+<gmd:citation>
+<gmd:CI_Citation>
+<gmd:title>
+<gco:CharacterString>PIT Regione Toscana - Carta dei caratteri del paesaggio</gco:CharacterString>
+</gmd:title>
+<gmd:date>
+<gmd:CI_Date>
+<gmd:date>
+<gco:Date>2015-03-27</gco:Date>
+</gmd:date>
+<gmd:dateType>
+<gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+</gmd:dateType>
+</gmd:CI_Date>
+</gmd:date>
+<gmd:date>
+<gmd:CI_Date>
+<gmd:date>
+<gco:Date>2014-01-01</gco:Date>
+</gmd:date>
+<gmd:dateType>
+<gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+</gmd:dateType>
+</gmd:CI_Date>
+</gmd:date>
+<gmd:identifier>
+<gmd:RS_Identifier>
+<gmd:code>
+<gco:CharacterString>CCP_PIT_20150327</gco:CharacterString>
+</gmd:code>
+<gmd:codeSpace>
+<gco:CharacterString>RT_CIST</gco:CharacterString>
+</gmd:codeSpace>
+</gmd:RS_Identifier>
+</gmd:identifier>
+</gmd:CI_Citation>
+</gmd:citation>
+<gmd:abstract>
+<gco:CharacterString>Nell’ambito della revisione della disciplina paesaggistica del Piano di Indirizzo Territoriale (PIT) della Regione Toscana è stata prodotta una carta 1:50000, a copertura di tutto il territorio regionale, finalizzandola alla evidenziazione dei caratteri di identità dei paesaggi toscani. </gco:CharacterString>
+</gmd:abstract>
+<gmd:pointOfContact>
+<gmd:CI_ResponsibleParty>
+<gmd:organisationName>
+<gco:CharacterString>Regione Toscana</gco:CharacterString>
+</gmd:organisationName>
+<gmd:contactInfo>
+<gmd:CI_Contact>
+<gmd:address>
+<gmd:CI_Address>
+<gmd:electronicMailAddress>
+<gco:CharacterString>segreteria-governoterritorio@regione.toscana.it</gco:CharacterString>
+</gmd:electronicMailAddress>
+<gmd:electronicMailAddress>
+<gco:CharacterString>infrastruttura.geografica@regione.toscana.it</gco:CharacterString>
+</gmd:electronicMailAddress>
+</gmd:CI_Address>
+</gmd:address>
+</gmd:CI_Contact>
+</gmd:contactInfo>
+<gmd:role>
+<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+</gmd:role>
+</gmd:CI_ResponsibleParty>
+</gmd:pointOfContact>
+<gmd:pointOfContact>
+<gmd:CI_ResponsibleParty>
+<gmd:organisationName>
+<gco:CharacterString>Centro Interuniversitario di Scienze del Territorio - CIST</gco:CharacterString>
+</gmd:organisationName>
+<gmd:contactInfo>
+<gmd:CI_Contact>
+<gmd:address>
+<gmd:CI_Address>
+<gmd:electronicMailAddress>
+<gco:CharacterString>segreteria@cist.it</gco:CharacterString>
+</gmd:electronicMailAddress>
+</gmd:CI_Address>
+</gmd:address>
+</gmd:CI_Contact>
+</gmd:contactInfo>
+<gmd:role>
+<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="processor">processor</gmd:CI_RoleCode>
+</gmd:role>
+</gmd:CI_ResponsibleParty>
+</gmd:pointOfContact>
+<gmd:pointOfContact>
+<gmd:CI_ResponsibleParty>
+<gmd:organisationName>
+<gco:CharacterString>Regione Toscana</gco:CharacterString>
+</gmd:organisationName>
+<gmd:contactInfo>
+<gmd:CI_Contact>
+<gmd:address>
+<gmd:CI_Address>
+<gmd:electronicMailAddress>
+<gco:CharacterString>segreteria-governoterritorio@regione.toscana.it</gco:CharacterString>
+</gmd:electronicMailAddress>
+<gmd:electronicMailAddress>
+<gco:CharacterString>infrastruttura.geografica@regione.toscana.it</gco:CharacterString>
+</gmd:electronicMailAddress>
+</gmd:CI_Address>
+</gmd:address>
+</gmd:CI_Contact>
+</gmd:contactInfo>
+<gmd:role>
+<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="owner">owner</gmd:CI_RoleCode>
+</gmd:role>
+</gmd:CI_ResponsibleParty>
+</gmd:pointOfContact>
+<gmd:pointOfContact>
+<gmd:CI_ResponsibleParty>
+<gmd:organisationName>
+<gco:CharacterString>Centro Interuniversitario di Scienze del Territorio - CIST</gco:CharacterString>
+</gmd:organisationName>
+<gmd:contactInfo>
+<gmd:CI_Contact>
+<gmd:address>
+<gmd:CI_Address>
+<gmd:electronicMailAddress>
+<gco:CharacterString>segreteria@cist.it</gco:CharacterString>
+</gmd:electronicMailAddress>
+</gmd:CI_Address>
+</gmd:address>
+</gmd:CI_Contact>
+</gmd:contactInfo>
+<gmd:role>
+<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="principalInvestigator">principalInvestigator</gmd:CI_RoleCode>
+</gmd:role>
+</gmd:CI_ResponsibleParty>
+</gmd:pointOfContact>
+<gmd:pointOfContact>
+<gmd:CI_ResponsibleParty>
+<gmd:organisationName>
+<gco:CharacterString>Regione Toscana</gco:CharacterString>
+</gmd:organisationName>
+<gmd:contactInfo>
+<gmd:CI_Contact>
+<gmd:address>
+<gmd:CI_Address>
+<gmd:electronicMailAddress>
+<gco:CharacterString>segreteria-governoterritorio@regione.toscana.it</gco:CharacterString>
+</gmd:electronicMailAddress>
+<gmd:electronicMailAddress>
+<gco:CharacterString>infrastruttura.geografica@regione.toscana.it</gco:CharacterString>
+</gmd:electronicMailAddress>
+</gmd:CI_Address>
+</gmd:address>
+</gmd:CI_Contact>
+</gmd:contactInfo>
+<gmd:role>
+<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+</gmd:role>
+</gmd:CI_ResponsibleParty>
+</gmd:pointOfContact>
+<gmd:pointOfContact>
+<gmd:CI_ResponsibleParty>
+<gmd:organisationName>
+<gco:CharacterString>Regione Toscana</gco:CharacterString>
+</gmd:organisationName>
+<gmd:contactInfo>
+<gmd:CI_Contact>
+<gmd:address>
+<gmd:CI_Address>
+<gmd:electronicMailAddress>
+<gco:CharacterString>segreteria-governoterritorio@regione.toscana.it</gco:CharacterString>
+</gmd:electronicMailAddress>
+<gmd:electronicMailAddress>
+<gco:CharacterString>infrastruttura.geografica@regione.toscana.it</gco:CharacterString>
+</gmd:electronicMailAddress>
+</gmd:CI_Address>
+</gmd:address>
+</gmd:CI_Contact>
+</gmd:contactInfo>
+<gmd:role>
+<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+</gmd:role>
+</gmd:CI_ResponsibleParty>
+</gmd:pointOfContact>
+<gmd:pointOfContact>
+<gmd:CI_ResponsibleParty>
+<gmd:organisationName>
+<gco:CharacterString>Regione Toscana</gco:CharacterString>
+</gmd:organisationName>
+<gmd:contactInfo>
+<gmd:CI_Contact>
+<gmd:address>
+<gmd:CI_Address>
+<gmd:electronicMailAddress>
+<gco:CharacterString>segreteria-governoterritorio@regione.toscana.it</gco:CharacterString>
+</gmd:electronicMailAddress>
+<gmd:electronicMailAddress>
+<gco:CharacterString>infrastruttura.geografica@regione.toscana.it</gco:CharacterString>
+</gmd:electronicMailAddress>
+</gmd:CI_Address>
+</gmd:address>
+</gmd:CI_Contact>
+</gmd:contactInfo>
+<gmd:role>
+<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="distributor">distributor</gmd:CI_RoleCode>
+</gmd:role>
+</gmd:CI_ResponsibleParty>
+</gmd:pointOfContact>
+<gmd:descriptiveKeywords>
+<gmd:MD_Keywords>
+<gmd:keyword>
+<gco:CharacterString>Copertura del suolo</gco:CharacterString>
+</gmd:keyword>
+<gmd:thesaurusName>
+<gmd:CI_Citation>
+<gmd:title>
+<gco:CharacterString>GEMET - INSPIRE themes, version 1.0</gco:CharacterString>
+</gmd:title>
+<gmd:date>
+<gmd:CI_Date>
+<gmd:date>
+<gco:Date>2008-06-01</gco:Date>
+</gmd:date>
+<gmd:dateType>
+<gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+</gmd:dateType>
+</gmd:CI_Date>
+</gmd:date>
+</gmd:CI_Citation>
+</gmd:thesaurusName>
+</gmd:MD_Keywords>
+</gmd:descriptiveKeywords>
+<gmd:resourceConstraints>
+<gmd:MD_Constraints>
+<gmd:useLimitation>
+<gco:CharacterString>La risorsa è liberamente accedibile e usabile con licenza CC BY</gco:CharacterString>
+</gmd:useLimitation>
+</gmd:MD_Constraints>
+</gmd:resourceConstraints>
+<gmd:resourceConstraints>
+<gmd:MD_LegalConstraints>
+<gmd:accessConstraints>
+<gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions">otherRestrictions</gmd:MD_RestrictionCode>
+</gmd:accessConstraints>
+<gmd:otherConstraints>
+<gco:CharacterString>Nessuna limitazione</gco:CharacterString>
+</gmd:otherConstraints>
+</gmd:MD_LegalConstraints>
+</gmd:resourceConstraints>
+<gmd:spatialResolution>
+<gmd:MD_Resolution>
+<gmd:equivalentScale>
+<gmd:MD_RepresentativeFraction>
+<gmd:denominator>
+<gco:Integer>50000</gco:Integer>
+</gmd:denominator>
+</gmd:MD_RepresentativeFraction>
+</gmd:equivalentScale>
+</gmd:MD_Resolution>
+</gmd:spatialResolution>
+<gmd:language>
+<gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="ita">ita</gmd:LanguageCode>
+</gmd:language>
+<gmd:topicCategory>
+<gmd:MD_TopicCategoryCode>imageryBaseMapsEarthCover</gmd:MD_TopicCategoryCode>
+</gmd:topicCategory>
+<gmd:extent>
+<gmd:EX_Extent>
+<gmd:geographicElement>
+<gmd:EX_GeographicBoundingBox>
+<gmd:westBoundLongitude>
+<gco:Decimal>9.59</gco:Decimal>
+</gmd:westBoundLongitude>
+<gmd:eastBoundLongitude>
+<gco:Decimal>12.46</gco:Decimal>
+</gmd:eastBoundLongitude>
+<gmd:southBoundLatitude>
+<gco:Decimal>42.24</gco:Decimal>
+</gmd:southBoundLatitude>
+<gmd:northBoundLatitude>
+<gco:Decimal>44.45</gco:Decimal>
+</gmd:northBoundLatitude>
+</gmd:EX_GeographicBoundingBox>
+</gmd:geographicElement>
+</gmd:EX_Extent>
+</gmd:extent>
+</gmd:MD_DataIdentification>
+</gmd:identificationInfo>
+<gmd:distributionInfo>
+<gmd:MD_Distribution>
+<gmd:distributionFormat>
+<gmd:MD_Format>
+<gmd:name>
+<gco:CharacterString>unknown</gco:CharacterString>
+</gmd:name>
+<gmd:version>
+<gco:CharacterString>unknown</gco:CharacterString>
+</gmd:version>
+</gmd:MD_Format>
+</gmd:distributionFormat>
+<gmd:transferOptions>
+<gmd:MD_DigitalTransferOptions>
+<gmd:onLine>
+<gmd:CI_OnlineResource>
+<gmd:linkage>
+<gmd:URL>http://bit.ly/1K9nsUH</gmd:URL>
+</gmd:linkage>
+</gmd:CI_OnlineResource>
+</gmd:onLine>
+</gmd:MD_DigitalTransferOptions>
+</gmd:transferOptions>
+</gmd:MD_Distribution>
+</gmd:distributionInfo>
+<gmd:dataQualityInfo>
+<gmd:DQ_DataQuality>
+<gmd:scope>
+<gmd:DQ_Scope>
+<gmd:level>
+<gmd:MD_ScopeCode codeListValue="dataset" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ScopeCode">dataset</gmd:MD_ScopeCode>
+</gmd:level>
+</gmd:DQ_Scope>
+</gmd:scope>
+<gmd:report>
+<gmd:DQ_DomainConsistency xsi:type="gmd:DQ_DomainConsistency_Type">
+<gmd:result>
+<gmd:DQ_ConformanceResult xsi:type="gmd:DQ_ConformanceResult_Type">
+<gmd:specification>
+<gmd:CI_Citation>
+<gmd:title>
+<gco:CharacterString>Regolamento (UE) n . 1089/2010 della Commissione del 23 novembre 2010 recante attuazione della direttiva 2007/2/CE del Parlamento europeo e del Consiglio per quanto riguarda l&apos;interoperabilità dei set di dati territoriali e dei servizi di dati territoriali</gco:CharacterString>
+</gmd:title>
+<gmd:date>
+<gmd:CI_Date>
+<gmd:date>
+<gco:Date>2010-12-08</gco:Date>
+</gmd:date>
+<gmd:dateType>
+<gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+</gmd:dateType>
+</gmd:CI_Date>
+</gmd:date>
+</gmd:CI_Citation>
+</gmd:specification>
+<gmd:explanation>
+<gco:CharacterString>See the referenced specification</gco:CharacterString>
+</gmd:explanation>
+<gmd:pass>
+<gco:Boolean>false</gco:Boolean>
+</gmd:pass>
+</gmd:DQ_ConformanceResult>
+</gmd:result>
+</gmd:DQ_DomainConsistency>
+</gmd:report>
+<gmd:lineage>
+<gmd:LI_Lineage>
+<gmd:statement>
+<gco:CharacterString>Il processo elaborativo e produttivo della carta si è svolto secondo le seguenti fasi e criteri:1) Caratteri fisiografici, forme del suolo e reticolo idrografico:La fonte informativa fondamentale è un DTM di passo 20m realizzato per interpolazione dell’informazione altimetrica presente nella CTR in scala 1:10000, opportunamente collaudata ed emendata da errori materiali. Dal modello sono state derivate una copertura hillshade e una copertura slope. Lo shaded relief utilizzato dalla carta è il risultato dell’overlay tra le due coperture simboleggiate attraverso un gradiente monocromatico. L’istogramma dei valori di luminosità della copertura hillshade è stato modificato per enfatizzare i valori corrispondenti alle ombre proprie dei rilievi; la luminosità della copertura slope è proporzionale ai valori di pendenza. L’overlay raster è stato realizzato attraverso il metodo di fusione Multiply in ambiente Adobe Photoshop. Lo “sfumo” a due livelli così costruito è utilizzato per ombreggiare gli altri tematismi areali estesi presenti nella carta, come l’uso del suolo. Per conservare i caratteri di plasticità nella rappresentazione delle forme del suolo i tematismi areali estesi sono schermati, nei rilievi boscati, da una maschera costruita dal negativo della copertura slope. In questo modo il chiaroscuro diventa propriamente lumeggiamento, perché oltre ad abbassare i livelli di luminosità nelle ombre, li alza in corrispondenza dei crinali e delle sommità orografiche. Le aree boscate dei rilievi sono aggettivate cromaticamente secondo una articolazione in tipi fisiografici che distingue i rilievi secondo specifici caratteri geomorfologici. Il sistema idrografico è rappresentato con tematismi areali e lineari, in parte generalizzati, estratti dal DB topografico regionale. La simbolizzazione restituisce la necessaria evidenza alle aree umide, nonché alle forme del suolo peculiari, come i calanchi e le biancane.2) Caratteri vegetazionali e della copertura del suolo:I caratteri colturali e vegetazionali sono descritti da una copertura di uso del suolo in scala 1:50000 derivata dalla generalizzazione del DB uso del suolo regionale, parzialmente integrato con informazioni derivate dalla carta forestale dell’Arrigoni, dall’Inventario Forestale della Toscana e, infine, dal confronto con materiale fotografico aereo e satellitare recente, opportunamente individuati entro i confini delle superfici boscate. I dati relativi a questi due temi insistono sulle stesse geometrie, ma sono originati da due processi diversificati. La copertura del suolo è stata originata dalla generalizzazione geometrica e tematica dell'originario uso del suolo al 10.000, attraverso una procedura che ne ha evidenziato le peculiarità locali. Le informazioni inerenti la vegetazione sono state individuate attraverso la consultazioni di fonti di maggior dettaglio “ritagliandole” entro i confini delle superfici naturali e seminaturali precedentemente individuate. In generale il criterio utilizzato per l'evidenziazione delle specie forestali è stato sempre quello di scegliere tipologie di coperture che si distinguono per la rarità o la particolare importanza paesaggistica. Per fare alcuni esempi sono stati individuati come classe a sé stante i castagneti da frutto in Lunigiana, sull'Amiata e in Garfagnana, mentre alcune tipologie vegetazionali della fascia mediterranea come le pinete, le leccete, la macchia e la gariga sono state evidenziate in aree costiere. In sintesi, le elaborazioni si sono svolte secondo le fasi seguenti:(i) eliminazione geometrica dei poligoni relativi a viabilità e idrografia lineare; (ii) analisi delle caratteristiche di copertura del suolo, realizzata anche attraverso la valutazione analitica delle metriche spaziali della distribuzione delle patch di uso del suolo; (iii) riclassificazione delle voci di legenda in funzione della significatività paesaggistica e successiva verifica della variazione delle metriche spaziali; (iv) individuazione delle classi di uso del suolo paesaggisticamente significative da sottoporre ad enfatizzazione geometrica</gco:CharacterString>
+</gmd:statement>
+</gmd:LI_Lineage>
+</gmd:lineage>
+</gmd:DQ_DataQuality>
+</gmd:dataQualityInfo>
+</gmd:MD_Metadata>
