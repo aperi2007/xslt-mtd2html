@@ -47,3 +47,20 @@ Attenzione che le varie librerie di dipendenza sono reperibili in differenti pac
 Poi, consiglio anche di crearsi una cartella ad hoc dove copiare tutti i binari (eseguibile exe e librerie dll) per non mescolarle con altri 
 programmi e prodotti presenti sul vostro  computer.
 
+--------------
+Impiego dell' XSLT con lo xml-stylesheet:
+
+Una modalita' interessante e' quella basata sull'impiego del comando "xml-stylesheet".
+Mediante questa modalita' si esgue direttamente da browser senza passare attraverso una pagina javascript.
+Il meccanismo si attiva inserendo nella pagina XML il seguente comando:
+
+<?xml-stylesheet type="text/xsl" href="path-to/iso19115-inspire-editor.xsl" ?>
+
+Il comando va inserito come seconda riga, immediatamente sotto il comando
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+Attenzione che se si prova localmente (ovvero sul proprio file-system) non con tutti i browsers funziona.
+Funziona con firefox purche' l' xml sia in UTF-8 (non funziona se UTF-16).
+Non funziona localmente con Internet-Explorer.
+--------------
